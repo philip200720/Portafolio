@@ -6,6 +6,13 @@ body {
   background-color: #000;
 }
 
+img.foto-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 600%;
+  object-fit: cover;
+}
+
 section {
   padding-top: 0;
   padding: 2rem 1rem;
