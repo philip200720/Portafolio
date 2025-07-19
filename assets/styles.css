@@ -1,0 +1,108 @@
+/* Estilos base */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+section {
+  padding-top: 0;
+  padding: 2rem 1rem;
+}
+
+section h1{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+section h2{
+  text-align: center;
+}
+
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+/* Hero */
+.hero {
+  background-color: #0a0a0a;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.hero-content img {
+  max-width: 400px;
+  border-radius: 1rem;
+}
+
+/* Curvas con SVG */
+.curva-svg {
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+/* Sección clara */
+.light {
+  background: #fff;
+  color: #000;
+}
+
+.dark {
+  background: #0a0a0a;
+  color: #fff;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 280px;
+  max-width: 350px;
+  background: #111;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.light .card {
+  background: #f4f4f4;
+  color: #000;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  filter: brightness(70%) saturate(120%);
+}
+
+.card h3, .card p {
+  padding: 1rem;
+}
